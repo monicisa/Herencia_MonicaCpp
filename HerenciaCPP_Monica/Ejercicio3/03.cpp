@@ -8,7 +8,7 @@ public:
     }
 };
 
-class Coche : private Vehiculo {
+class Coche : public Vehiculo {
 };
 
 int main() {
